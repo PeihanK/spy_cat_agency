@@ -16,19 +16,24 @@ From the agency perspective, they regularly hire new spy cats and so should be a
 be able to create new missions and later assign them to cats that are available. Targets are created in place along with a mission, meaning 
 that there will be no page to see/create all/individual targets.
 
-1 Clone the repository 
+1 Clone the repository:
 git clone spy_cat_agency
 cd spy_cat_agency
+
 2 Create and activate a virtual environment:
 python -m venv .venv
 .venv\Scripts\activate
+
 3 Install the project dependencies:
 pip install -r requirements.txt
+
 4 Run migrations to set up the database:
 python manage.py makemigrations
 python manage.py migrate
+
 5 Create a superuser for accessing the Django admin panel:
 python manage.py createsuperuser
+
 6 Start the development server:
 python manage.py runserver
 
